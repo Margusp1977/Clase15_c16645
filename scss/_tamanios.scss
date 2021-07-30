@@ -1,0 +1,23 @@
+$parrafoDesktop:20px;
+$parrafoMobile:18px;
+$h1Desktop:50px;
+$h1Mobile:40px;
+$h3Desktop:42px;
+$h3Mobile:32px;
+
+p{font-size: $h1Desktop;}
+p{font-size: $h1Mobile;}
+h1{font-size: $h1Desktop;
+@media only screen and (max-width: 767px){font-size: $h1Mobile;}
+}
+
+h3{font-size: $h3Desktop;
+@media only screen and (max-width: 767px){font-size: $h3Mobile;}
+}
+
+@for $i from 1 through 10 {
+    .col-#{$i}{
+        width:10% * $i;
+    }
+}
+

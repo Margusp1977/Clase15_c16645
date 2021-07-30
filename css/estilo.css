@@ -1,0 +1,140 @@
+h1 {
+  color: black; }
+
+p {
+  color: black; }
+
+h3 {
+  color: yellow; }
+
+h5 {
+  color: blue; }
+
+.green {
+  color: green; }
+
+.red {
+  color: red; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+p {
+  font-size: 50px; }
+
+p {
+  font-size: 40px; }
+
+h1 {
+  font-size: 50px; }
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 40px; } }
+
+h3 {
+  font-size: 42px; }
+  @media only screen and (max-width: 767px) {
+    h3 {
+      font-size: 32px; } }
+
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.paddingTB {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 5px; }
+
+.paddingT {
+  padding-top: 20px; }
+
+.centrar {
+  text-align: center; }
+
+.paddingLR {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.footerBg h3 {
+  text-align: center; }
+
+.ico_foo {
+  transition: 1s;
+  text-align: center; }
+
+.ico_foo {
+  transform: translateY(-10px);
+  cursor: pointer; }
+  .ico_foo:hover {
+    background-color: black; }
+
+.contactosPersonales {
+  transition: 1s; }
+
+.contacto:hover {
+  color: blue;
+  cursor: pointer; }
+
+h1 {
+  background: radial-gradient(circle, yellow, red, grey);
+  text-align: center; }
+
+p {
+  background-color: #9bc3e4;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.footerFlex {
+  display: flex;
+  justify-content: space-around; }
+  @media only screen and (max-width: 767px) {
+    .footerFlex {
+      displey: flex;
+      flex-direction: column; } }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+body {
+  overflow-x: hidden; }

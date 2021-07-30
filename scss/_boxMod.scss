@@ -1,0 +1,64 @@
+$padding: 0px;
+$margin: 0px;
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+.paddingTB{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center; 
+    font-size: 5px;
+    }
+
+.paddingT{
+    padding-top: 20px;
+    }
+
+.centrar{
+    text-align: center;
+    }
+
+.paddingLR{
+    padding-left: 5px; 
+    padding-right: 5px;
+    }
+
+.footerBg h3 {
+    text-align: center;
+    }
+
+.ico_foo {
+    transition:1s;
+    text-align: center;
+    }
+
+.ico_foo {
+    transform: translateY(-10px);
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+    }
+    }
+
+.contactosPersonales{
+    transition: 1s;
+    }
+    .contacto:hover{
+        color: blue; 
+        cursor: pointer;
+    }
+
+h1{
+    background: radial-gradient(circle, yellow, red, grey);
+    text-align: center;
+    }
+    
+p{
+    background-color: rgb(155, 195, 228);
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    }

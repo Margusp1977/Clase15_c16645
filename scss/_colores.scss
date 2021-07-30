@@ -1,0 +1,17 @@
+$negro:black;
+$rojo:red;
+$amarillo:yellow;
+$azul:cornflowerblue;
+$azul:blue;
+
+h1{color:$negro;}
+p{color:$negro;}
+h3{color:$amarillo;}
+h5{color:$azul}
+
+
+@each $color in green, red, black, white{
+    .#{$color}{
+    color:#{$color};
+    }
+}
