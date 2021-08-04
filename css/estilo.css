@@ -111,24 +111,26 @@ h3 {
   cursor: pointer; }
 
 h1 {
-  background: radial-gradient(circle, yellow, red, grey);
+  background: radial-gradient(circle, black, grey, red);
   text-align: center; }
 
 p {
-  background-color: #9bc3e4;
+  background-color: #3a3c3d;
   font-size: 1.5rem;
   text-align: center;
   color: black; }
 
 .navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end; }
-
+    justify-content: flex-end;
+    background: black; 
+    color: white;}
+  
 .footerFlex {
   display: flex;
   justify-content: space-around; }
   @media only screen and (max-width: 767px) {
     .footerFlex {
-      displey: flex;
+      display: flex;
       flex-direction: column; } }
 
 .row {
@@ -136,5 +138,7 @@ p {
   flex-direction: row;
   justify-content: center; }
 
-body {
-  overflow-x: hidden; }
+  body {
+    overflow-x: hidden; }
+
+
