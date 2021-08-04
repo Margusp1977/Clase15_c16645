@@ -8,6 +8,7 @@
     @media only screen and (max-width: 767px){displey: flex; flex-direction: column;
 }
 }
+
 @mixin flex-row{
     display: flex;
     flex-direction: row;
