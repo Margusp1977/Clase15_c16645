@@ -1,4 +1,24 @@
 *{padding: 0;margin: 0;}
-	.paddingTB{padding-top: 10px;padding-bottom: 10px; text-align: center;color:black;background-color: cornflowerblue;}
-	.container-fluid{padding-left: 0;padding-right: 0;background-color: black;}
-	.footerBg {background-color: black;}
+	.container-fluid{
+		padding-left: 0;
+		padding-right: 0;
+		background-color: black;}
+
+	.footerBg {
+		background-color: black;}
+
+	.paddingTB{
+		padding-top: 10px;
+		padding-bottom: 10px; 
+		text-align: center;
+		color:black;
+		background-color: cornflowerblue;}
+	.footerBg h3 {color: white; text-align: center;}
+	.col-lg-12,.col-lg-6, .col-lg-4, .col-lg-3 {padding-right: 0;padding-left: 0;}
+	.paddingT{padding-top: 50px;}
+	.centrar{text-align: center;}
+	.paddingLR{padding-left: 5px; padding-right: 5px;}
+	.ico_foo{transition:1s;text-align: center;}
+	.ico_foo:hover{transform: translateY(-10px);cursor: pointer;}
+	.contactosPersonales{transition: 1s;}
+	.contacto:hover{color: blue; cursor: pointer;}

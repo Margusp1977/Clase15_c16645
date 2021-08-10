@@ -1,0 +1,32 @@
+body{
+	overflow-x: hidden	
+}
+
+body{
+	color: black;
+		text-decoration: none; /*eliminar subrayado de enlaces*/
+		font-size: 1.75rem;
+		text-align: center;
+	}
+
+.border{
+		border: 1px solid black;
+	}
+header{/*background: linear-gradient(to right, red,blue,yellow);*/
+			background: radial-gradient(circle, green, red, grey)}	
+		.bgYellow{background-color: green;}
+		.borderBlack{border: 1px solid black;}
+		.transform{
+			height: 100px;
+			transition: all 10s;
+		}
+
+.paddingTB{padding-top: 10px;padding-bottom: 10px; text-align: center;color:black;}
+.container-fluid{padding-left: 0;padding-right: 0;background-color: black;}
+.navBackground {background-color: black;}
+
+.encabezado_border {
+		color:black;
+		font-size: 5rem;
+		text-align: center;
+	}
