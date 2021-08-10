@@ -111,11 +111,22 @@ h3 {
   cursor: pointer; }
 
 h1 {
-  background: radial-gradient(circle, black, red);
-  text-align: center; }
+  background: radial-gradient(circle, red, black);
+  text-align: center; 
+  color: white;
+  justify-content: center;
+}
+
+h2 {
+  background: radial-gradient(circle, red, black);
+  text-align: center; 
+  color: white;
+  justify-content: center;
+}  
+
 
 p {
-  background-color: #e0e7eb;
+  background-color: goldenrod;
   font-size: 1rem;
   text-align: center;
   justify-content: center;
@@ -141,5 +152,9 @@ p {
 
   body {
     overflow-x: hidden; }
+
+.border{
+        border: 1px solid black;
+      }
 
 
