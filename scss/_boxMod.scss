@@ -1,5 +1,5 @@
-$padding: 0px;
-$margin: 0px;
+$padding: 5px;
+$margin: 5px;
 
 .container-fluid{
     padding-left: 0;
@@ -14,11 +14,8 @@ $margin: 0px;
     background-color: black;
     }
 
-.paddingT{
+.paddingT centar{
     padding-top: 20px;
-    }
-
-.centrar{
     text-align: center;
     }
 
@@ -53,8 +50,8 @@ $margin: 0px;
     transition: 1s;
     }
     .contacto:hover{
-        color: blue; 
-        cursor: pointer;
+    color: white; 
+    cursor: pointer;
     }
 
 h1{

@@ -4,21 +4,30 @@
 		padding-right: 0;
 		background-color: black;}
 
-	.footerBg {
-		background-color: black;}
+footer{/*background: linear-gradient(to right, red,blue,yellow);*/
+  background: black;}
+  .bgYellow{background-color: green;}
+  .borderBlack{border: 1px solid black;}
+  .transform{
+    height: 100px;
+    /*transform: translate(50px, 20px);*/ /* mover el elemento (primer valor hace referencia al eje X, segundo valor hace referencia al eje de las Y) */  
+    /*transform: rotate(-80deg);*/ /* rotar elemento con degrees */ 
+    /*transform: rotate(-80deg);*/ /* rotar elemento con degrees */
+      /*transform: scale(-1.2,-1.2);*//* escalar elemento: >1 -> agranda; [0;1]-> achica; <1->invierte */
+      /*transform: skew(10deg,20deg);*/ /* sesgar elemento con degrees*/
+      transition: all 10s;
+  }
 
-	.paddingTB{
-		padding-top: 10px;
-		padding-bottom: 10px; 
-		text-align: center;
-		color:black;
-		background-color: cornflowerblue;}
-	.footerBg h3 {color: white; text-align: center;}
-	.col-lg-12,.col-lg-6, .col-lg-4, .col-lg-3 {padding-right: 0;padding-left: 0;}
-	.paddingT{padding-top: 50px;}
-	.centrar{text-align: center;}
-	.paddingLR{padding-left: 5px; padding-right: 5px;}
-	.ico_foo{transition:1s;text-align: center;}
-	.ico_foo:hover{transform: translateY(-10px);cursor: pointer;}
-	.contactosPersonales{transition: 1s;}
-	.contacto:hover{color: blue; cursor: pointer;}
+  *{padding: 0;margin: 0;}
+  .paddingTB{padding-top: 10px;padding-bottom: 10px; text-align: center;color:black;background-color: cornflowerblue;}
+  .container-fluid{padding-left: 0;padding-right: 0;background-color: black;}
+  .footerBg {background-color: black;}
+  .footerBg h3 {color: white; text-align: center;}
+  .col-lg-12,.col-lg-6, .col-lg-4, .col-lg-3 {padding-right: 0;padding-left: 0;}
+  .paddingT{padding-top: 50px;}
+  .centrar{text-align: center;}
+  .paddingLR{padding-left: 5px; padding-right: 5px;}
+  .ico_foo{transition:1s;text-align: center;}
+  .ico_foo:hover{transform: translateY(-10px);cursor: pointer;}
+  .contactosPersonales{transition: 1s;}
+  .contacto:hover{color: blue; cursor: pointer;}
