@@ -1,7 +1,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: rgb(89, 97, 214)}
+  background-color: black;}
   
 .border{
     border: 1px solid black;
@@ -17,7 +17,7 @@ h1 {
     color: yellow; }
   
   h5 {
-    color: blue; }
+    color: white; }
   
   .green {
     color: green; }
@@ -128,14 +128,14 @@ h1 {
     cursor: pointer; }
   
   h1 {
-    background: radial-gradient(black, grey);
+    background: black;
     text-align: center; 
     color: white;
     justify-content: center;
   }
 
     h2 {
-    background: radial-gradient(black, grey);
+    background: black;
     text-align: center; 
     color: white;
     justify-content: center;
@@ -154,7 +154,8 @@ p {
     font-size: 1.2rem;
     text-align: center;
     justify-content: space-around;
-    color: black; }
+    color: black;
+    font-style: italic; }
 
 
 .navbar-expand-lg .navbar-collapse {
@@ -204,7 +205,7 @@ cursor: pointer;}
   *{padding: 0;margin: 0;}
   .paddingTB{padding-top: 10px;padding-bottom: 10px; text-align: center;color:black;background-color:white;}
   .container-fluid{padding-left: 0;padding-right: 0;background-color: black;}
-  .footerBg {background-color: black;}
+  .footerBg {background-color:black;}
   .footerBg h3 {color: white; text-align: center;}
   .col-lg-12,.col-lg-6, .col-lg-4, .col-lg-3 {padding-right: 0;padding-left: 0;}
   .paddingT{padding-top: 50px;}
@@ -213,4 +214,4 @@ cursor: pointer;}
   .ico_foo{transition:1s;text-align: center;}
   .ico_foo:hover{transform: translateY(-10px);cursor: pointer;}
   .contactosPersonales{transition: 1s;}
-  .contacto:hover{color: blue; cursor: pointer;}
+  .contacto:hover{color: white; cursor: pointer;}
