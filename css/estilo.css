@@ -98,8 +98,8 @@ h1 {
     font-size: 20px; 
     justify-content: center;
     color: black;
-    margin-left: 40px;
-}
+    margin-left: 30px;
+  }
   
   .footerBg h5 {
     text-align: center; }
@@ -197,10 +197,11 @@ cursor: pointer;}
   }
 
   h6 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
+    font-weight: bold;
     justify-content: space-around;
-    color: white; }
+    color: black; }
   
   
 p {
